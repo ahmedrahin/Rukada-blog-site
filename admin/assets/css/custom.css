@@ -1,0 +1,95 @@
+
+input[type="submit"]{
+    width: 15%;
+    margin: 37px auto;
+}
+.active_user {
+    background: green;
+}
+.inactive-user {
+    background: red;
+}
+.actionBtn {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.actionBtn li {
+    list-style: none;
+    display: inline;
+   
+}
+.actionBtn li a i {
+    font-size: 16px;
+}
+.bx-pencil {
+    color: green;
+}
+.bx-trash {
+    color: red;
+}
+.modal a {
+    color: white !important;
+}
+.image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+.image-edit {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    display: block;
+    margin: 5px 0;
+}
+.title {
+    width: 24% !important;
+}
+.btn-logout {
+    position: absolute !important;
+    bottom: 35px;
+    width: 92%;
+    background: rgb(255 255 255 / 18%);
+    color: #fff !important;
+}
+.trash {
+    background: #b7b7b7 !important;
+    color: #fff !important;
+    padding: 14px 40px;
+    display: inline-block;
+    margin-top: 14px;
+}
+.btn-info,.btn-outline-primary {
+    padding: 2px 8px !important;
+    font-size: 13px;
+}
+.empty {
+    color: #b9b9b9;
+    font-size: 13px;
+    font-style: italic;
+}
+.permanent{
+    background-color: #ff0000b0;
+    border: none;
+}
+.permanent:hover, .permanent:focus {
+    background-color: #ff0000b0 !important;
+    border: none;
+    
+}
+.btn-info:focus {
+    box-shadow: 0 0 0 0.25rem rgba(17, 206, 239, 0) !important;
+}
+.restore {
+    background-color: #008000a3;
+    border: none;
+    margin-bottom: 5px;
+}
+.restore:hover, .restore:focus {
+    background-color: #008000a3;
+}
